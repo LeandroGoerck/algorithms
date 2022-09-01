@@ -1,5 +1,5 @@
 def study_schedule(permanence_period, target_time):
-    if type(target_time) is not int or target_time < 0:
+    if type(target_time) is not int:
         return None
     count = 0
     for period in permanence_period:
