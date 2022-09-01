@@ -3,8 +3,8 @@ def is_anagram(first_string, second_string):
     if first_string == "" or second_string == "":
         return False
 
-    first_string=[*first_string.lower()]
-    second_string=[*second_string.lower()]
+    first_string = [*first_string.lower()]
+    second_string = [*second_string.lower()]
 
     merge_sort(first_string, 0, len(first_string))
     merge_sort(second_string, 0, len(second_string))
